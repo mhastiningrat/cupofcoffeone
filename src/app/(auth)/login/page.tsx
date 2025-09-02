@@ -3,7 +3,7 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div className='flex justify-items-center flex-col pt-10 w-full'>
+    <div className='flex justify-items-center flex-col pt-10 w-full max-w-md'>
       <div className='w-full flex justify-end mb-20'>
         <div className='bg-[#154D71] p-4 rounded-l-full flex gap-4'>
           <Image src="/logo-bumn.png" width={70} height={30} alt="logo"/>
