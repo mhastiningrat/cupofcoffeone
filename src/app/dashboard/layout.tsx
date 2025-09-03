@@ -24,7 +24,7 @@ export default function DashboardLayout({
             <Link href="/dashboard"><MdOutlineOtherHouses className="text-3xl"/></Link>
             <Link href="/dashboard"><MdOutlineArticle className="text-3xl"/></Link>
             <Link href="/dashboard"><MdOutlineAccountCircle className="text-3xl"/></Link>
-            <Link href="/dashboard"><MdOutlineMenu className="text-3xl"/></Link>
+            <Link href="/"><MdOutlineMenu className="text-3xl"/></Link>
           </div>
         </footer>
       </main>

@@ -16,17 +16,8 @@ export default function K3Layout({
   return (
     
       <main
-        className={`w-md font-sans grid justify-items-center min-h-screen pb-20 p-4 bg-[#154D71] text-[#FFF9AF]`}
+        className={`w-md font-sans grid  min-h-screen pb-20 p-4 text-slate-700`}
       >
-        <header className="w-full">
-            <div className="flex gap-6">
-            <button className="hover:bg-[#FFF9AF] hover:text-[#154D71]">
-                <MdArrowBackIos/>
-            </button>
-            <h2>Title</h2>
-            </div>
-            
-        </header>
         {children}
       </main>
    

@@ -1,10 +1,11 @@
-import Image from "next/image";
-import React from "react";
-import { MdArrowBackIos } from "react-icons/md";
+import Image from 'next/image'
+import React from 'react'
+import { MdArrowBackIos } from 'react-icons/md'
+import AparForm from './form'
 
-const InspectionWPE = () => {
+const InsoectionElectricTool = () => {
   return (
-    <div>
+    <>
       <div className="w-full flex justify-between mb-7 bg-[#bee6ff] px-4">
         <button className="text-[#1C6EA4] text-2xl">
           <Image src="/wong.png" width={50} height={50} alt="logo" />
@@ -20,16 +21,12 @@ const InspectionWPE = () => {
           <button className="hover:bg-[#FFF9AF] hover:text-[#154D71]">
             <MdArrowBackIos className="text-2xl" />
           </button>
-          <h2 className="text-2xl font-bold">Inspection WPE</h2>
+          <h2 className="text-2xl font-bold">Inspection APAR</h2>
         </div>
       </div>
-      <div className="flex justify-center py-10">
-        <Image src="/akandatang.png" width={150} height={150} alt="logo" />
-      </div>
+      <AparForm />
+    </>
+  )
+}
 
-      <div className="h-[500px]"></div>
-    </div>
-  );
-};
-
-export default InspectionWPE;
+export default InsoectionElectricTool
