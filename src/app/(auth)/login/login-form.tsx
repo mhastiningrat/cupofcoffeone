@@ -36,7 +36,7 @@ const LoginForm = () => {
       </div>
       <div className='w-full px-10'>
         <form action="#" className="mx-auto mt-6 max-w-xl sm:mt-20 w-full">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-1">
             <div>
               <label htmlFor="username" className="block text-sm/6 font-semibold text-gray-900">Username</label>
               <div className="mt-2.5">

@@ -14,7 +14,7 @@ export async function login(formData: FormDatas) {
   // validasi login
   if (username === "admin" && password === "wikatjjadmin") {
     // ✅ redirect langsung dari server
-    redirect("/safety-induction");
+    redirect("/dashboard");
   }
 
   throw new Error("Login gagal");
